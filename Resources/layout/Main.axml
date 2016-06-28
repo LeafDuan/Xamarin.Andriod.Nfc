@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textAllCaps="false">
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Scan"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/WriteButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Write"
+        android:textAllCaps="false" />
+    <TextView
+        android:id="@+id/ResultLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:text="Hello"
+        android:layout_marginBottom="4.5dp"
+        android:scrollbars="vertical" />
+    <TextView
+        android:id="@+id/MarkLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:text=" " />
+    <TextView
+        android:id="@+id/DataLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:text="Data"
+        android:scrollbars="vertical" />
+</LinearLayout>
